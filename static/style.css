@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: darkmagenta;
+    padding: 12px 15px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 23px;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+}
+
+#logo img {
+    height: 45px;
+    filter: invert(1);
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 4px 15px;
+}
+
+#navbar li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#pictureSection {
+    background: center / cover no-repeat url("./IMG/bg.png");
+    height: 900px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#pictureSection h3 {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 40px;
+    padding: 25px;
+    color: #ff0000;
+}
+
+#pictureSection p {
+    font-size: 20px;
+    text-align: center;
+    width: 1000px;
+    color: #00ffe2;
+}
+
+#missionSection {
+    display: block;
+    height: 300px;
+    background-color: #ecd7d7;
+    margin: auto;
+    width: 100%;
+}
+
+#missionSection>h3 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+#missionSection div#cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#missionSection div.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20%;
+    margin: 22px 20px;
+    height: 210px;
+    background: #fccbff;
+}
+
+#missionSection div.card>h3 {
+    text-align: center;
+    margin: 12px;
+    font-size: 22px;
+    padding: 5px;
+    color: #8f442e;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-img {
+    height: 115px;
+    padding: 2px 14px;
+    margin: 5px 5px;
+}
+
+.card-img img {
+    height: inherit;
+}
+
+.card-content {
+    padding: 0 12px;
+}
+
+.card-content p {
+    font-size: 17px;
+}
+
+#sponserSection {
+    height: 230px;
+    background-color: #d3734f;
+}
+
+#sponserSection h3 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+#sponsers{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 108px;
+    margin-top: 13px;
+}
+
+#sponsers a{
+    text-decoration: none;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer {
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+}
